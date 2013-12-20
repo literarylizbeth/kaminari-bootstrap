@@ -1,0 +1,7 @@
+<tr>
+  <td><%= widget.name %></td>
+  <td><%= widget.colour %></td>
+  <td><%= link_to icon("book", fixed_width: true), widget %></td>
+  <td><%= link_to icon("edit", fixed_width: true), edit_widget_path(widget) %></td>
+  <td><%= link_to icon("trash-o", fixed_width: true), widget, method: :delete, data: { confirm: "Are you sure?" } %></td>
+</tr>

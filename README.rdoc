@@ -1,0 +1,7 @@
+== README
+
+Kaminari pagination in Ruby on Rails with Bootstrap 3 demo. Requires Ruby 2.0.0 and Rails 4. 
+
+Kaminari views found in app/views/kaminari.
+
+Not endorsed by anyone at all, including myself.

@@ -1,0 +1,16 @@
+<p class="widget">
+  <span style="color: <%= @widget.colour %>;">
+    <%= icon("gears", size: :five) %>
+  </span>
+</p>
+
+<p>
+  <h1>Widget Info</h1>
+  <strong>Name:</strong>
+  <%= @widget.name %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_widget_path(@widget), class: "btn btn-default" %>
+  <%= link_to "Back", widgets_path, class: "btn btn-default" %>
+</p>

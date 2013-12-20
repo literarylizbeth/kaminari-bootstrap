@@ -1,0 +1,24 @@
+<h1>All Widgets</h1>
+
+<p>
+  <%= link_to "New Widget", new_widget_path, class: "btn btn-default" %>
+</p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Colour</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= render @widgets %>
+  </tbody>
+</table>
+
+<div class="center">
+  <%= paginate @widgets %>
+</div>
